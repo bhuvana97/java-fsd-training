@@ -8,11 +8,11 @@ create table tutorials_tbl(
    PRIMARY KEY ( tutorial_id )
 );
 
-INSERT INTO tutorials_tbl (tutorial_title, tutorial_author, submission_date)VALUES("Learn PHP", "John", '2022-1-06');
-INSERT INTO tutorials_tbl (tutorial_title, tutorial_author, submission_date)VALUES("Learn Java", "Elina", '2022-01-08');
-INSERT INTO tutorials_tbl (tutorial_title, tutorial_author, submission_date)VALUES("Learn sql", "Mary", '2022-02-06');
-INSERT INTO tutorials_tbl (tutorial_title, tutorial_author, submission_date)VALUES("Learn  flutter", "Sam", '2022-02-10');
-INSERT INTO tutorials_tbl (tutorial_title, tutorial_author, submission_date)VALUES("Learn Java", "Andrea", '2022-02-12');
+insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn PHP", "John", '2022-1-06');
+insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn Java", "Elina", '2022-01-08');
+insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn sql", "mary", '2022-02-06');
+insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn  flutter", "Sam", '2022-02-10');
+insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn Java", "andrea", '2022-02-12');
 select * from tutorials_tbl;
 select * from tutorials_tbl where tutorial_author = 'jacob';
 update tutorials_tbl  set tutorial_title = 'Learning Spring'  WHERE tutorial_id = 3;
