@@ -1,4 +1,5 @@
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -11,9 +12,9 @@ public class mysqlconnector
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection c=DriverManager.getConnection("jdbc:mysql://localhost:3306/bhuvanadb","root","user");
+			Connection c=DriverManager.getConnection("jdbc:mysql://localhost:3306/tutorials","root","user");
 			Statement s= c.createStatement();
-			ResultSet r= s.executeQuery("select * from EMPtable");
+			ResultSet r= s.executeQuery("select * from tutorials_tbl");
 
 			
 			while(r.next())
