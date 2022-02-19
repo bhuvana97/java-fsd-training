@@ -7,7 +7,6 @@ create table tutorials_tbl(
    submission_date DATE,
    PRIMARY KEY ( tutorial_id )
 );
-
 insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn PHP", "John", '2022-1-06');
 insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn Java", "Elina", '2022-01-08');
 insert into tutorials_tbl (tutorial_title, tutorial_author, submission_date)values("Learn sql", "mary", '2022-02-06');
