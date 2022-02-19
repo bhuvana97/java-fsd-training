@@ -1,5 +1,5 @@
 use data
- show databases
+show databases
 db.data.insert({
     "EmpName": "Anna",
     "salary": 8848,
