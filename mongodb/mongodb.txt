@@ -31,6 +31,8 @@ db.data.update({'EmpName':'Samuel'},{$set:{'EmpName':'Joseph'}})
 db.data.find().pretty()
 db.data.remove({'EmpName':'Joseph'})
 db.data.deleteMany({salary:{$gte:50000}})
+show collections
+show databases
 db.data.updateOne(
 	{
 	    EmpName: 'Angel'},
