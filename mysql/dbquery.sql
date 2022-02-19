@@ -22,4 +22,4 @@ select * from tutorials_tbl ORDER BY tutorial_author ASC;
 select * from tutorials_tbl ORDER BY tutorial_author DESC;
 alter table tutorials_tbl drop column tutorial_title;
 drop table tutorials_tbl;
-  
+drop database tutorials;  
