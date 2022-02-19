@@ -53,5 +53,3 @@ db.data.aggregate([{$unwind:"$EmpName"}])
 db.data.distinct("salary")
 db.data.find().pretty()
 db.dropDatabase()
-
-
