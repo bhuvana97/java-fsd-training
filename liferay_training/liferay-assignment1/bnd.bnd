@@ -1,0 +1,4 @@
+Bundle-Name: liferay-assignment1
+Bundle-SymbolicName: liferay.assignment1
+Bundle-Version: 1.0.0
+Export-Package: liferay.assignment1.constants

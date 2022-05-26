@@ -1,0 +1,4 @@
+Bundle-Name: liferay_practise
+Bundle-SymbolicName: liferay_practise
+Bundle-Version: 1.0.0
+Export-Package: liferay_practise.constants

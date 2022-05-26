@@ -1,0 +1,4 @@
+Bundle-Name: testrender_url
+Bundle-SymbolicName: testrender_url
+Bundle-Version: 1.0.0
+Export-Package: testrender_url.constants
